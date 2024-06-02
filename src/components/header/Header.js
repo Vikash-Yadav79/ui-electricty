@@ -24,7 +24,6 @@ const Header = () => {
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>
-                    {/* <span>📞 +245 124586 414</span> */}
                 </div>
                 <span>📞 +245 124586 414</span>
                 <div className="account-info">
