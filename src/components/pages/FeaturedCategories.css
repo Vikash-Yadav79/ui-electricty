@@ -1,0 +1,132 @@
+.featured-categories {
+  margin-top: 60px;
+  text-align: center;
+  padding: 0 60px;
+}
+.featured-categories h2 {
+  margin-top: 60px;
+}
+h2{
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f7f5f6;
+
+}
+.product-card p{
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 45px;
+}
+.product-card img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  padding: 30px 30px 15px;
+}
+
+.product-boxes {
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.product-box {
+  display: block;
+  border: 2px solid #2f8e94;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  width: calc(33.33% - 30px);
+  margin: 10px 0;
+  padding: 45px 0px 0;
+  text-align: left;
+}
+
+
+.product-box-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-box-info {
+  padding: 0 0px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.product-box-info .wrap{
+  width: 150px;
+}
+.product-box-info .wrap img {
+  width: 100%;
+}
+.product-box-info .inner{
+  width: calc(100% - 150px);
+  padding-left: 30px;
+}
+
+.product-box-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #186d72;
+  font-weight: 600;
+  font-family: system-ui;
+}
+
+.product-box-description {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #2f8e94;
+  margin-top: 20px;
+}
+
+.product-box-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensure buttons span full width */
+}
+
+.view-button,
+.quote-button,
+.catalog-button {
+  flex-grow: 1;
+  padding: 15px 10px;
+  border: none;
+  background-color: #2f8e94;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.view-button:hover,
+.quote-button:hover,
+.catalog-button:hover {
+  background-color: #0056b3;
+}
+
+.view-button + .quote-button,
+.quote-button + .catalog-button {
+  border-left: 1px solid #fff; /* Add separator between buttons */
+}

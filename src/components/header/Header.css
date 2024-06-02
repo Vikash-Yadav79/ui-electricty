@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f8e94; /* Green */
+    color: #ffffff; /* White */
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    
+  }
+  
+  .header-top .contact-info,
+  .header-top .social-media,
+  .header-top .account-info {
+    display: flex;
+    align-items: center;
+    margin-right: 53px;
+ 
+  }
+  
+  .header-top .social-media {
+    display: flex;
+    gap: 10px;
+    margin-left: 106px;
+  }
+  
+  .header-top .social-media a {
+    color: #ffffff; /* White */
+    font-size: 16px;
+  }
+  
+  .header-top .social-media a:hover {
+    color: #d4d4d4; /* Light Grey */
+  }
+  
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* White */
+    flex-wrap: nowrap;
+  }
+  
+  .header-main .logo {
+    height: 50px;
+  }
+  
+  .header-main .nav-links {
+    display: flex;
+    gap: 20px;
+    flex: 2;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  .header-main .nav-links a {
+    text-decoration: none;
+    color: #343e40; /* Black */
+    font-weight: bold;
+  }
+  
+  .header-main .nav-links a:hover {
+    color: #2f8e94; /* Green */
+  }
+  
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .header-actions .search-icon {
+    font-size: 24px;
+    color: #343e40; /* Black */
+  }
+  
+  .header-actions .enquiry-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #343e40; /* Black */
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .pink-line {
+    border: 0;
+    height: 2px;
+    background:#ededed;
+    margin: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .header-main {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-main .nav-links {
+      justify-content: flex-start;
+    }
+  
+    .header-actions {
+      justify-content: flex-start;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-top .contact-info,
+    .header-top .social-media,
+    .header-top .account-info {
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    .header-main .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .header-actions {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  }
+  

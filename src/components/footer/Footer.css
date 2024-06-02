@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h2, .footer-section h3 {
+  margin-bottom: 20px;
+}
+
+.logo-section p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+footer .social-media a svg{
+  position: relative;
+  top: 7px;
+}
+footer .social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+
+.latest-news .news-item {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.latest-news .news-item img {
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+  background: #fff;
+  padding: 10px;
+}
+
+.latest-news .news-item p {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.quick-links ul, .best-seller ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links ul li, .best-seller ul li {
+  margin-bottom: 10px;
+}
+
+.quick-links ul li a, .best-seller ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.quick-links ul li a:hover, .best-seller ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #333;
+}
